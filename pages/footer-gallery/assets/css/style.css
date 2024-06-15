@@ -50,7 +50,7 @@ section {
     width: 100%;
     position: relative;
     height: auto;
-    background-color: #070617;
+    background-color: #bbb198;
   }
   .footer .col {
     width: 190px;
@@ -68,7 +68,7 @@ section {
     font-size: 12px;
     line-height: 17px;
     padding: 20px 0px 5px 0px;
-    color: rgba(255,255,255,0.2);
+    color: black;
     font-weight: normal;
     text-transform: uppercase;
     letter-spacing: 0.250em;
@@ -79,7 +79,7 @@ section {
     padding: 0;
   }
   .footer .col ul li {
-    color: #999999;
+    color: #6d6651;
     font-size: 14px;
     font-family: inherit;
     font-weight: bold;
@@ -95,7 +95,7 @@ section {
   }
   
   .footer .col ul li:hover {
-    color: #ffffff;
+    color: #56503e;
     transition: .1s;
     -webkit-transition: .1s;
     -moz-transition: .1s;
@@ -103,6 +103,7 @@ section {
   .clearfix {
     clear: both;
   }
+
   @media only screen and (min-width: 1280px) {
     .contain {
       width: 1200px;
@@ -145,7 +146,6 @@ section {
       width: 100%;
     }
   }
-
 
 
   .footer-clean {
@@ -204,7 +204,7 @@ section {
     display:inline-block;
     text-align:center;
     border-radius:50%;
-    border:1px solid #ccc;
+    border:1px solid black;
     margin-left:10px;
     margin-top:22px;
     color:inherit;
@@ -239,7 +239,8 @@ section {
   .lodesign {
     position: relative;
     width: 100%;
-    background: #3586ff;
+    background: #bbb198;
+    color: black;
     min-height: 100px;
     padding: 20px 50px;
     display: flex;
@@ -265,7 +266,7 @@ section {
   
   .social-icon__link {
     font-size: 2rem;
-    color: #fff;
+    color: black;
     margin: 0 10px;
     display: inline-block;
     transition: 0.5s;
@@ -276,7 +277,7 @@ section {
   
   .menu__link {
     font-size: 1.2rem;
-    color: #fff;
+    color: black  ;
     margin: 0 10px;
     display: inline-block;
     transition: 0.5s;
@@ -371,7 +372,7 @@ section {
     content: '';
     width: 4rem;
     height: .2rem;
-    background: #e65b00;
+    background: #bbb198 ;
     position: absolute;
     top: 2.5rem;
     left: 0;
@@ -383,7 +384,7 @@ section {
 }
 
 a {
-    color: white;
+    color: #bbb198;
     text-decoration: none;
     cursor: pointer;
 }
@@ -394,7 +395,7 @@ a {
 }
 
 .patdesign a:hover {
-    color: #f46d13;
+    color: #bbb198;
 }
 
 .footer-item {
@@ -418,7 +419,7 @@ a {
 }
 
 .social ul li:hover {
-    color: #e65b00;
+    color: #bbb198;
     transform: scale(1.1);
     transition: all .2s linear;
 }
@@ -433,7 +434,7 @@ a {
 
 
 .madesign {
-    background-color: #292c2f;
+    background-color: #bbb198 ;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
     box-sizing: border-box;
     width: 100%;
@@ -443,7 +444,7 @@ a {
   }
   
   .madesign .madesign-left p {
-    color: #8f9296;
+    color: black;
     font-size: 14px;
     margin: 0;
   }
@@ -452,7 +453,7 @@ a {
   .madesign p.madesign-links {
     font-size: 18px;
     font-weight: bold;
-    color: #ffffff;
+    color: black  ;
     margin: 0 0 10px;
     padding: 0;
     transition: ease .25s;
@@ -470,7 +471,7 @@ a {
     content: "·";
     font-size: 20px;
     left: 0;
-    color: #fff;
+    color: black;
     display: inline-block;
     padding-right: 5px;
   }

@@ -259,13 +259,14 @@ header.design-one {
   height: 50px;
 }
 
+
 .design-four {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 200px;
   width: 100vw;
-  box-shadow: 0 10px rgba(124, 124, 124, 0.534);
+  box-shadow: 0 10px rgba(72, 61, 35, 0.534);
   padding: 1.5rem 0;
   border: 1px black solid;
 
@@ -273,7 +274,7 @@ header.design-one {
     display: flex;
     cursor: pointer;
     padding: 10px 20px;
-    background-color: #e0e0e0;
+    background-color: #bbb198;
     border-radius: 30px;
     align-items: flex-end;
     justify-self: end;
@@ -293,7 +294,7 @@ header.design-one {
     background: transparent;
   }
   .box a .fas{
-    color: aquamarine;
+    color: #bbb198 ;
     font-size: 18px;
   }
 
@@ -323,7 +324,7 @@ header.design-one {
     color: var(--color-primary);
   }
   .menu-bar {
-    background-color: wheat;
+    background-color: #BBB198;
     height: 80px;
     width: 100%;
     display: flex;
@@ -399,7 +400,7 @@ header.design-one {
   .designwan {
     width: 100vw;
     height: 50px;
-    background: #4776e6;
+    background: #bbb198;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -408,7 +409,7 @@ header.design-one {
     .wan {
       width: 100%;
       height: 50px;
-      background: #4776e6;
+      background: #bbb198;
       margin-bottom: 40px;
     }
 
@@ -431,14 +432,14 @@ header.design-one {
     position: relative;
     display: flex;
     align-items: center;
-    color: #fff;
+    color: #000;
     text-transform: uppercase;
-    text-shadow: 0 0 15px #8e54e9;
+    text-shadow: 0 0 15px #6d6651;
     transition: all 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
     }
 
     .menu li:hover {
-      color: #111;
+      color: white;
       transform: scale(1.2);
       text-shadow: none;
     }
@@ -448,7 +449,7 @@ header.design-one {
 .designto {
   width: 100vw;
   height: 50px;
-  background: #4776e6;
+  background: #000;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -457,7 +458,7 @@ header.design-one {
   .to {
     width: 100%;
     height: 50px;
-    background: #4776e6;
+    background: #000;
     
     margin-bottom: 40px;
   }
@@ -481,9 +482,9 @@ header.design-one {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #fff;
+    color: #bbb198;
     text-transform: uppercase;
-    text-shadow: 0 0 15px #8e54e9;
+    text-shadow: 0 0 15px #bbb198;
     transition: all 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
     text-align: center;
     padding: 0 10px;
@@ -494,7 +495,7 @@ header.design-one {
     content: "";
     position: absolute;
     display: block;
-    border: 2px solid #fff;
+    border: 2px solid #6d6651;
     width: 100%;
     height: 0%;
     transition: all 0.5s ease;
@@ -511,7 +512,7 @@ header.design-one {
 .designtri {
 width: 100vw;
   height: 50px;
-  background: #4776e6;
+  background: #bbb198;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -520,7 +521,7 @@ width: 100vw;
   .tri {
     width: 100%;
     height: 50px;
-    background: #4776e6;
+    background: #bbb198;
     
     margin-bottom: 40px;
   }
@@ -546,7 +547,7 @@ width: 100vw;
     justify-content: center;
     color: #fff;
     text-transform: uppercase;
-    text-shadow: 0 0 15px #8e54e9;
+    text-shadow: 0 0 15px #000;
     transition: all 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
     text-align: center;
     padding: 0 10px;
@@ -586,23 +587,24 @@ width: 100vw;
   .menutri li:hover::after {
   width: 100%;
   height: 100%;
-  border-color: #fff;
+  border-color: #000;
   }
 }
 
 .designpor {
     width: 100vw;
     height: 50px;
-    background: #4776e6;
+    background: #bbb198;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    font-weight: 600;
 
     .por {
       width: 100%;
       height: 50px;
-      background: #4776e6;
+      background: #bbb198;
       margin-bottom: 40px;
     }
 
@@ -625,10 +627,11 @@ width: 100vw;
     position: relative;
     display: flex;
     align-items: center;
-    color: #fff;
+    color: #000;
     text-transform: uppercase;
-    text-shadow: 0 0 15px #8e54e9;
+    text-shadow: 0 0 15px #6d6651;
     transition: all 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
+    
     }
 
     .menupor li:after {
@@ -643,7 +646,7 @@ width: 100vw;
     .menupor li:hover::after {
       width: 100%;
       height: 1px;
-      background-color: #fff;
+      background-color: #000;
     }
 }
 
@@ -652,9 +655,9 @@ width: 100vw;
   nav {
     width: 80%;
     margin: 0 auto;
-    background: #fff;
+    background: #000                                    w;
     padding: 50px 0;
-    box-shadow: 0px 5px 0px #dedede;
+    box-shadow: 0px 5px 0px #bbb198;
   }
   nav ul {
     list-style: none;
@@ -678,7 +681,7 @@ width: 100vw;
     transition: all .5s;
   }
   nav ul li a:hover {
-    color: #d3d00b;
+    color: #bbb198;
   }
 
   nav.shift ul li a {
@@ -686,7 +689,7 @@ width: 100vw;
     z-index: 1;
   }
   nav.shift ul li a:hover {
-    color: #91640F;
+    color: #bbb198;
   }
   nav.shift ul li a:after {
     display: block;
@@ -700,7 +703,7 @@ width: 100vw;
     height: 1px;
     content: '.';
     color: transparent;
-    background: #F1C40F;
+    background: #6d6651;
     visibility: none;
     opacity: 0;
     z-index: -1;

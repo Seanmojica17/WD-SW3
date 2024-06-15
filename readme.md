@@ -10,17 +10,19 @@
   <h3 align="center">Seatwork 3: Footer & Header</h3>
 </div>
 <div align="center">
-  This is for demonstrating skills in HTML and CSS with Multiple Pages, Effects and Container Manipulations. Providing a Different Versions of Headers and Footers.
+ This is to showcase your proficiency with many pages, effects, and container manipulations in HTML and CSS. supplying several header and footer versions.
 </div>
 
 <br />
 
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Seatwork-3)
+
+![](https://visit-counter.vercel.app/counter.png?page=GodwinAblao/WD-seatwork3)
 
 ---
 
 <br />
 <br />
+
 
 <details>
   <summary>Table of Contents</summary>
@@ -49,14 +51,22 @@
 
 ## Overview
 
-Project demonstrate the coding of HTMl and CSS in different kinds of headers and footers in addition of animations. This is to have hands-on experience in coding and having an actual output.
+<!-- The following are just sample -->
+Description of the project in details.
+
+Guiding Question:
+- What is the project and purpose
+    -Creating multiple unique and distinctive header and footer designs for a website—both static and animated—is the task at hand. The goal is to offer aesthetically pleasing and useful components that improve the website's user experience and brand identification. The designs ought to accommodate a variety of tastes and styles, providing the consumer with a selection of possibilities.
+
 
 ### Key Components
-- Header Animation
-  - Hover Effect
-  - Active Effect
-  - Multi Layer Domino Effect
-  - Not Effect
+- MultiPage Website
+- Hover Effect
+- Active Effect
+- Not Effect
+- Popup Effect
+- Hover Glow Effect
+- Typewritter Effect
 
 
 ### Technology
@@ -101,4 +111,7 @@ WD-ProjectName
 
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+|Github|Get some ideas|https://github.com/zyx-0314/WD-Seatwork-3|
+|Top 12 Navbar Hover Effects and Effects on Click|Get some Ideas|https://getdevdone.com/blog/our-favorite-navigation-menu-effects.html|
+|CSS Hover effects|Get some ideas|https://www.proglobalbusinesssolutions.com/css-hover-effects/|
+|CSS Tutorial|Get some ideas|https://www.w3schools.com/css/default.asp|

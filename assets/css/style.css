@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
   color: rgb(0, 0, 0);
-  font-family: "Poppins", sans-serif;
+  font-family: monospace;
 }
 
 h1,
@@ -13,32 +13,12 @@ h1 * {
   font-family: "Merriweather", serif;
 }
 
-/* Dev */
-.pokemon,
-.pokemon * {
-  /* outline: 1px dashed red; */
-}
-
-.content,
-.content * {
-  /* outline: 3px dotted gold; */
-}
-
-/* Dep */
 body {
-  background: linear-gradient(75deg, #9ba8ce 0%, #6400a7 100%);
-  background: -moz-linear-gradient(75deg, #9ba8ce 0%, #6400a7 100%);
-  background: -webkit-linear-gradient(75deg, #9ba8ce 0%, #6400a7 100%);
+  background: linear-gradient(75deg, #BBB198 0%, #E4E2DD 100%);
+  background: -moz-linear-gradient(75deg, #BBB198 0%, #E4E2DD 100%);
+  background: -webkit-linear-gradient(75deg, #BBB198 0%, #E4E2DD 100%);
 }
 
-video {
-  position:absolute;
-  z-index: -1;
-  object-fit:cover;
-  width: 100vw;
-  height: 100vh;
-  opacity: 70%;
-}
 
 .container {
   display: flex;
@@ -51,27 +31,27 @@ video {
     -8deg,
     #ffffff00 0%,
     #ffffff00 26%,
-    #4900a87a 26%,
-    #4900a87a 100%
+    #BBB198 26%,
+    #BBB198 100%
   );
   background: -moz-linear-gradient(
     -8deg,
     #ffffff00 0%,
     #ffffff00 26%,
-    #4900a87a 26%,
-    #4900a87a 100%
+    #BBB198 26%,
+    #BBB198 100%
   );
   background: -webkit-linear-gradient(
     -8deg,
     #ffffff00 0%,
     #ffffff00 26%,
-    #4900a87a 26%,
-    #4900a87a 100%
+    #BBB198 26%,
+    #BBB198 100%
   );
 
   & > .pokemon {
     width: 40%;
-    border-right: 2px rgb(76, 92, 184) solid;
+    border-right: 2px rgb(0, 0, 0) solid;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -85,16 +65,19 @@ video {
       height: clamp(2rem, 10vw, 10%);
     }
 
-    & .pokeball {
+    & .Mainlogo {
         height: clamp(2rem, 5vw, 3rem);
       transition: all 0.2s ease;
     }
 
-    & .gengar {
+    & .mojics {
       width: 100%;
       object-fit: cover;
       transition: all 0.5s ease;
+      transition: all 0.2s ease;
     }
+
+
 
     & .socials {
       display: flex;
@@ -128,7 +111,11 @@ video {
       }
 
       &:hover {
-        .pokeball {
+        .Mainlogo {
+          transform: rotateZ(720deg);
+        }
+
+        .mojics{
           transform: rotateZ(720deg);
         }
 
@@ -174,7 +161,7 @@ video {
       }
 
       & > a {
-        border: rgba(255, 255, 255, 0.534) 1px solid;
+        border: rgba(0, 0, 0, 0.534) 1px solid;
         border-radius: 25px;
         padding: 0.7rem 1.5rem;
         text-decoration: none;
@@ -189,17 +176,17 @@ video {
         }
 
         &.ghost {
-          background: linear-gradient(-8deg, #7b87aa 0%, #5269ad 100%);
-          background: -moz-linear-gradient(-8deg, #7b87aa 0%, #5269ad 100%);
-          background: -webkit-linear-gradient(-8deg, #7b87aa 0%, #5269ad 100%);
-          filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#9900FF", endColorstr="#D89DFF", GradientType=1 );
+          background: linear-gradient(-8deg, #BBB198 0%, #6d6651 100%);
+          background: -moz-linear-gradient(-8deg, #BBB198 0%, #6d6651 100%);
+          background: -webkit-linear-gradient(-8deg, #BBB198 0%, #6d6651 100%);
+          filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#BBB198", endColorstr="#6D6651", GradientType=1 );
         }
 
         &.poison {
-          background: linear-gradient(-8deg, #9900ff 0%, #d89eff 100%);
-          background: -moz-linear-gradient(-8deg, #9900ff 0%, #d89eff 100%);
-          background: -webkit-linear-gradient(-8deg, #9900ff 0%, #d89eff 100%);
-          filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#9900FF", endColorstr="#D89DFF", GradientType=1 );
+          background: linear-gradient(-8deg, #BBB198 0%, #6D6651 100%);
+          background: -moz-linear-gradient(-8deg, #BBB198 0%, #6D6651 100%);
+          background: -webkit-linear-gradient(-8deg, #BBB198 0%, #6d6651 100%);
+          filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#BBB198", endColorstr="#6D6651", GradientType=1 );
         }
       }
     }
